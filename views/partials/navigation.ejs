@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="/public/css/bootstrap.min.css">
     <script src="/public/js/bootstrap.min.js"></script>
     <script src="/public/js/jquery.js"></script>
+    <style>
+        #navButtons {
+            margin-left: 200px;
+        }
+
+        #link {
+            padding: 30px;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,25 +27,28 @@
         <div class="container">
             <!-- Navbar brand -->
             <a class="navbar-brand me-2" href="home">
-                <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="16" alt="MDB Logo"
+                <img src="/public/image/dj-high-resolution-logo-transparent.png" height="70" alt="MDB Logo"
                     loading="lazy" style="margin-top: -1px;" />
             </a>
 
 
 
             <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarButtonsExample">
+            <div class="collapse navbar-collapse" id="navButtons">
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dashboard</a>
+                        <a class="nav-link" href="#" id="link">Dashboard</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login">Login</a>
+                        <a class="nav-link" href="#" id="link">Subject</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login" id="link">Login</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="signup">Signup</a>
+                        <a class="nav-link" href="signup" id="link">Signup</a>
                     </li>
                 </ul>
 
