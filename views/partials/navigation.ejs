@@ -9,6 +9,10 @@
     <script src="/public/js/bootstrap.min.js"></script>
     <script src="/public/js/jquery.js"></script>
     <style>
+        #nav {
+            background-color: rgba(230, 186, 244, 0.726);
+        }
+
         #navButtons {
             margin-left: 200px;
         }
@@ -22,12 +26,12 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary  sticky-top" id="nav">
         <!-- Container wrapper -->
         <div class="container">
             <!-- Navbar brand -->
             <a class="navbar-brand me-2" href="home">
-                <img src="/public/image/dj-high-resolution-logo-transparent.png" height="70" alt="MDB Logo"
+                <img src="/public/image/dj-high-resolution-logo-transparent.png" height="70" alt="dj Logo"
                     loading="lazy" style="margin-top: -1px;" />
             </a>
 
@@ -37,6 +41,9 @@
             <div class="collapse navbar-collapse" id="navButtons">
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home" id="link">Home</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="dashboard" id="link">Dashboard</a>
                     </li>
