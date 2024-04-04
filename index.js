@@ -31,6 +31,9 @@ app.get("/chat", (req, res) => {
 app.get("/dashboard", (req, res) => {
     res.render("dashboard")
 })
+app.get("/subject", (req, res) => {
+    res.render("subject")
+})
 
 app.get("*", (req, res) => {
     res.status(404).send("404 for all pages not defined in routes")
