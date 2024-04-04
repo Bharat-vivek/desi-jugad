@@ -25,6 +25,12 @@ app.get("/login", (req, res) => {
 app.get("/signup", (req, res) => {
     res.render("signup")
 })
+app.get("/chat", (req, res) => {
+    res.render("chat")
+})
+app.get("/dashboard", (req, res) => {
+    res.render("dashboard")
+})
 
 app.get("*", (req, res) => {
     res.status(404).send("404 for all pages not defined in routes")
