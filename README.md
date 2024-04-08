@@ -4,4 +4,5 @@ This is a platform where every mentees has a personal mentor in every field and 
 
 
 you can visit the code from here :- https://desi-jugad.onrender.com/ 
-if ypu want to contribute then you are welcome
+<br>
+if you want to contribute then you are welcome
